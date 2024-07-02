@@ -17,6 +17,7 @@ export function loadFromStorage(){
 
 function saveToStorage(){
   localStorage.setItem('cart', JSON.stringify(cart));
+  console.log('saved');
 }
 
 export function addToCart(productId) {
