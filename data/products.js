@@ -87,7 +87,7 @@ const object2 =  {
 
 export let products = [];
 
-export function loadProducts(fun) {
+export function loadProducts(fun = Function) {
   const xhr = new XMLHttpRequest();
 
   xhr.addEventListener('load', () => {
